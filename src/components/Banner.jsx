@@ -1,9 +1,4 @@
-import React from 'react'
-<<<<<<< HEAD
 import BannerCard from '../home/BannerCard.jsx';
-=======
-import BannerCard from '../home/BannerCard.jsx'
->>>>>>> 050b0eb4f267835fb01658693dffadefc93d5c5f
 
 const Banner = () => {
   return (
