@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerCard from '../home/Bannercard'
+import BannerCard from '../home/BannerCard.jsx';
 
 const Banner = () => {
   return (
