@@ -9,7 +9,7 @@ const Shop = () => {
   const navigate = useNavigate();
 
   useEffect (() => {
-      fetch('http://localhost:3000/all-books')
+      fetch('https://ecommerce-books-app-backend.onrender.com/all-books')
     .then(res => res.json()).then(data => setBooks(data));
   }, [])
 
