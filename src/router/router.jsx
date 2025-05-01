@@ -35,7 +35,7 @@ import BuyNow from "../components/BuyNow";
         {
             path: "/book/:id",
             element: <SingleBook/>,
-            loader: ({params}) => fetch(`http://localhost:3000/books/${params.id}`)
+            loader: ({params}) => fetch(`https://ecommerce-books-app-backend.onrender.com/${params.id}`)
         },
         
     ]
@@ -59,7 +59,7 @@ import BuyNow from "../components/BuyNow";
         {
             path: "/admin/dashboard/edit-books/:id",
             element: <EditBook/>,
-            loader: ({params}) => fetch(`http://localhost:3000/books/${params.id}`)
+            loader: ({params}) => fetch(`https://ecommerce-books-app-backend.onrender.com${params.id}`)
         }
       ]
     },
